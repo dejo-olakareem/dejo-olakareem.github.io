@@ -75,11 +75,10 @@
 #pic {
   background-color:#DDDDDD;
   padding:40px;
-  margin-top:40px;
-  margin-bottom:0px;
-  margin-right:40px;
-  margin-left:40px;
-  border-radius:20px;
+  margin-top:auto;
+  margin-bottom:auto;
+  margin-right:auto;
+  margin-left:auto;
 }
 
 img {
