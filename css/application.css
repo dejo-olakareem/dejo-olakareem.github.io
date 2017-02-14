@@ -75,10 +75,8 @@
 #pic {
   background-color:#DDDDDD;
   padding:40px;
-  margin-top:auto;
-  margin-bottom:auto;
-  margin-right:auto;
-  margin-left:auto;
+  margin-top:40px;
+  margin-bottom:0px;
 }
 
 img {
