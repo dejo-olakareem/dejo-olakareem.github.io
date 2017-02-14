@@ -11,12 +11,10 @@ $(document).ready(function() {
 var toggle = function(){
 	$(".img-responsive, .name").mouseenter(function(e){
 		e.preventDefault()
-		$(this).siblings('p').slideDown("slow");
-		console.log("you")
+		$(this).siblings('p').slideDown("slow");		
 	})
 	$(".img-responsive, .name").mouseleave(function(e){
 		e.preventDefault()
 		$(this).siblings('p').slideUp("slow")
-		console.log("you")
 	})
 }
