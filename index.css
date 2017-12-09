@@ -1,0 +1,31 @@
+@media only screen and (max-width: 800px) {
+    .my-carousel {
+      margin-top: -170px !important;
+    }
+
+}
+.my-nav {
+  z-index: 999 !important;
+  background: transparent !important;
+  /*margin-left: 60%;*/
+}
+
+.my-nav a {
+  color: white !important;
+}
+
+.my-nav ul li a {
+  padding: 0 2.0em !important;
+}
+
+.my-carousel {
+  margin-top: -60px;
+}
+
+.responsive-div{
+  height: 750px;
+  /*background-size: cover;
+  background-position: left;
+    background-repeat: no-repeat;*/
+    /*overflow: hidden;*/
+}
