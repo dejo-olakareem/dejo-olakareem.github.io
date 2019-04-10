@@ -65,10 +65,10 @@
   background-position: center;
   background-repeat: no-repeat;
     /*overflow: hidden;*/
-  background-image:radial-gradient(transparent 165px, black 70%), url(./images/webpic.jpg);
+  background-image:radial-gradient(transparent 165px, transparent 70%), url(./images/webpic.jpg);
   background-blend-mode: normal;
   background-attachment: fixed;
-  filter: grayscale();
+  /*filter: grayscale();*/
   }
 
 .hide {
@@ -152,4 +152,8 @@ h1 { font-size: 3.5em; }
 h2 {
   color: #888;
   font-size: 2em;
+}
+
+.links {
+  font-size: 30px;
 }
