@@ -1,21 +1,58 @@
 @media only screen and (max-width: 800px) {
-    .my-carousel {
-      margin-top: -170px !important;
+    .my-nav {
+      margin-left: 0px !important;
     }
 
+    .my-carousel {
+      margin-top: -180px !important;
+    }
+
+    .responsive-div{
+      height: 800px !important;
+      background-image:radial-gradient(transparent 35px, black 60%), url(./images/webpic.jpg) !important;
+      background-blend-mode: normal;
+      background-attachment: fixed;
+      filter: grayscale();
+    }
+
+    .my-nav ul li a {
+      padding: 0em !important;
+    }
+
+    .my-hidden-nav ul li a {
+      padding: 0em !important;
+    }
+
+
 }
+
 .my-nav {
-  z-index: 999 !important;
-  background: transparent !important;
+  z-index: 999;
+  background: white;
+  height: 70px;
   /*margin-left: 60%;*/
 }
 
 .my-nav a {
-  color: white !important;
+  color: black !important;
+}
+
+.my-nav a:hover {
+ /* background-color: lightgrey !important;
+  border-radius: 50px;*/
 }
 
 .my-nav ul li a {
-  padding: 0 2.0em !important;
+  padding: 0 3.0em !important;
+}
+
+.my-hidden-nav ul li a {
+  padding: 0 3.0em !important;
+}
+
+
+.my-hidden-nav {
+  opacity: 0.9 !important;
 }
 
 .my-carousel {
@@ -23,9 +60,108 @@
 }
 
 .responsive-div{
-  height: 750px;
-  /*background-size: cover;
-  background-position: left;
-    background-repeat: no-repeat;*/
+  height: 950px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
     /*overflow: hidden;*/
+  background-image:radial-gradient(transparent 165px, black 70%), url(./images/webpic.jpg);
+  background-blend-mode: normal;
+  background-attachment: fixed;
+  filter: grayscale();
+  }
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: show;
+}
+
+.my-button{
+  height: 46px;
+  width: 300px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 0.8;
+  border-radius: 3px;
+   box-shadow: 0 8px 6px -6px black;
+  /*border-color: #0275d8;*/
+}
+
+/* Three columns side by side */
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+    padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
 }
