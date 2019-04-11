@@ -70,7 +70,7 @@ body{
 
 .my-nav {
   z-index: 999;
-  background: transparent;
+  background: white;
   height: 70px;
   /*position:fixed;*/
   /*margin-left: 60%;*/
@@ -78,7 +78,7 @@ body{
 
 
 .my-nav p {
-  color: white !important;
+  color: black !important;
   font-size: 1.5vw;
   font-family:pacifico;
 }
@@ -92,7 +92,7 @@ body{
 
 .my-nav ul li a {
   padding: 0 3.0em !important;
-  color: white !important;
+  color: black !important;
 }
 
 .my-hidden-nav ul li a {
