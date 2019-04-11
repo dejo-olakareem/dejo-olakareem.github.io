@@ -19,6 +19,12 @@
       padding: 0em !important;
     }
 
+    .my-nav p {
+  color: white !important;
+  font-size: 30px !important;
+  font-family:pacifico;
+}
+
     .my-hidden-nav ul li a {
       padding: 0em !important;
     }
@@ -44,6 +50,7 @@
 
 .brand{
   padding-right: 10% !important;
+  margin-left: 0px !important;
 }
 }
 
@@ -60,6 +67,14 @@ body{
 
 .my-nav a {
   color: white !important;
+  font-size: 16px !important;
+
+}
+
+.my-nav p {
+  color: white !important;
+  font-size: 1.5vw;
+  font-family:pacifico;
 }
 
 .my-nav a:hover {
@@ -91,10 +106,11 @@ body{
   background-position: center;
   background-repeat: no-repeat;
     /*overflow: hidden;*/
-  background-image:radial-gradient(transparent 165px, transparent 70%), url(./images/webpic.jpg);
+  background-image:linear-gradient(transparent 15px, black 90%), url(./images/webpic.jpg);
   background-blend-mode: normal;
   background-attachment: fixed;
-  /*filter: grayscale();*/
+  opacity: 6;
+  /*filter: opacity(80%);*/
   }
 
 .hide {
