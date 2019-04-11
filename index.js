@@ -35,7 +35,7 @@ $( document ).ready(function() {
     //NAvigate between two navs
     $(window).scroll(function() {
         // $('.my-hidden-nav').hide();
-      if ($(this).scrollTop()>650)
+      if ($(this).scrollTop()>860)
        {
           $('.my-hidden-nav').show();
        }
