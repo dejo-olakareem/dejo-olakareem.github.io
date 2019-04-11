@@ -7,6 +7,11 @@
       margin-left: 0px !important;
     }
 
+    .my-hidden-nav ul li a {
+  padding: 0 3.0em !important;
+  color: black !important;
+}
+
   .my-carousel {
     margin-top: -180px !important;
   }
