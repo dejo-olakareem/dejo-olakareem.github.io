@@ -71,7 +71,7 @@ body{
 .my-nav {
   z-index: 999;
   background: white;
-  height: 70px;
+  /*height: 70px;*/
   /*position:fixed;*/
   /*margin-left: 60%;*/
 }
