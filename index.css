@@ -1,4 +1,4 @@
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1440px) {
     .my-nav {
       margin-left: 0px !important;
     }
@@ -9,10 +9,10 @@
 
     .responsive-div{
       height: 800px !important;
-      background-image:radial-gradient(transparent 35px, black 60%), url(./images/webpic.jpg) !important;
+      background-image:radial-gradient(transparent 35px), url(./images/webpic.jpg) !important;
       background-blend-mode: normal;
       background-attachment: fixed;
-      filter: grayscale();
+      /*filter: grayscale();*/
     }
 
     .my-nav ul li a {
@@ -41,17 +41,21 @@
 .timeline:before {
   display: none;
 }
+
+.brand{
+  padding-right: 10% !important;
+}
 }
 
 .my-nav {
   z-index: 999;
-  background: white;
+  background: transparent;
   height: 70px;
   /*margin-left: 60%;*/
 }
 
 .my-nav a {
-  color: black !important;
+  color: white !important;
 }
 
 .my-nav a:hover {
@@ -75,6 +79,7 @@
 .my-carousel {
   margin-top: -60px;
 }
+
 
 .responsive-div{
   height: 950px;
