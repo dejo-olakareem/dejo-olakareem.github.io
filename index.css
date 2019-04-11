@@ -47,6 +47,10 @@
 }
 }
 
+body{
+  margin-top: -20px;
+}
+
 .my-nav {
   z-index: 999;
   background: transparent;
