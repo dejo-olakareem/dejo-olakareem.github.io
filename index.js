@@ -1,5 +1,4 @@
 $( document ).ready(function() {
-    console.log( "ready!" );
     $(".nav-link").click(function(e) {
     e.preventDefault();
     var aid = $(this).attr("href");
@@ -52,8 +51,6 @@ $( document ).ready(function() {
       $('html,body').animate({scrollTop: $(aid).offset().top},'slow');
     });
 
-    // Modal
-    $('#myModal').modal(options)
 });
 
  var TxtRotate = function(el, toRotate, period) {
