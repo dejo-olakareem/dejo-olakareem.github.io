@@ -72,15 +72,10 @@ body{
   z-index: 999;
   background: transparent;
   height: 70px;
-  position:fixed;
+  /*position:fixed;*/
   /*margin-left: 60%;*/
 }
 
-.my-nav a {
-  color: white !important;
-  font-size: 16px !important;
-
-}
 
 .my-nav p {
   color: white !important;
@@ -88,17 +83,21 @@ body{
   font-family:pacifico;
 }
 
-.my-nav a:hover {
- /* background-color: lightgrey !important;
-  border-radius: 50px;*/
+.my-hidden-nav p {
+  color: black !important;
+  font-size: 1.5vw;
+  font-family:pacifico;
 }
+
 
 .my-nav ul li a {
   padding: 0 3.0em !important;
+  color: white !important;
 }
 
 .my-hidden-nav ul li a {
   padding: 0 3.0em !important;
+  color: black !important;
 }
 
 
