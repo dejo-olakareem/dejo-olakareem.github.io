@@ -4,13 +4,13 @@
   }
 
   .my-hidden-nav {
-      margin-left: 0px !important;
-    }
+    margin-left: 0px !important;
+  }
 
-    .my-hidden-nav ul li a {
-  padding: 0 3.0em !important;
-  color: black !important;
-}
+  .my-hidden-nav ul li a {
+    padding: 0 3.0em !important;
+    color: black !important;
+  }
 
   .my-carousel {
     margin-top: -180px !important;
@@ -79,7 +79,7 @@
 }
 
 body{
-  margin-top: -20px;
+  /*margin-top: -20px;*/
   background-color: GhostWhite;
 }
 
@@ -112,7 +112,7 @@ body{
 
 .my-hidden-nav ul li a {
   padding: 0 3.0em !important;
-  color: black !important;
+  /*color: black !important;*/
 }
 
 

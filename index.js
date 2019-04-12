@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-    $(".nav-link").click(function(e) {
+  $(".nav-link").click(function(e) {
     e.preventDefault();
     var aid = $(this).attr("href");
     $('html,body').animate({scrollTop: $(aid).offset().top},'slow');
@@ -12,37 +12,37 @@ $( document ).ready(function() {
     // });
 
     $('.customer-logos').slick({
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 1000,
-        arrows: false,
-        dots: false,
-          pauseOnHover: false,
-          responsive: [{
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 3
-          }
-        }, {
-          breakpoint: 520,
-          settings: {
-            slidesToShow: 2
-          }
-        }]
-      });
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 1000,
+      arrows: false,
+      dots: false,
+      pauseOnHover: false,
+      responsive: [{
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3
+        }
+      }, {
+        breakpoint: 520,
+        settings: {
+          slidesToShow: 2
+        }
+      }]
+    });
     //NAvigate between two navs
     $(window).scroll(function() {
         // $('.my-hidden-nav').hide();
-      if ($(this).scrollTop()>860)
-       {
+        if ($(this).scrollTop()>860)
+        {
           $('.my-hidden-nav').show();
-       }
-      else
-       {
-        $('.my-hidden-nav').hide();
-       }
-    });
+        }
+        else
+        {
+          $('.my-hidden-nav').hide();
+        }
+      });
 
     //Scroll to id wanted
     $(".nav-link").click(function(e) {
@@ -51,9 +51,9 @@ $( document ).ready(function() {
       $('html,body').animate({scrollTop: $(aid).offset().top},'slow');
     });
 
-});
+  });
 
- var TxtRotate = function(el, toRotate, period) {
+var TxtRotate = function(el, toRotate, period) {
   this.toRotate = toRotate;
   this.el = el;
   this.loopNum = 0;
