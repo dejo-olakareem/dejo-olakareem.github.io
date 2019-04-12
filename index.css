@@ -356,3 +356,7 @@ h2 {
 .timeline-body > p + p {
   margin-top: 5px;
 }
+
+.round{
+  border-radius:60px !important;
+}
