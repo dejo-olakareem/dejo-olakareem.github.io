@@ -42,7 +42,7 @@
     margin-left: 0px !important;
   }
 
-  .container{
+  .intro{
     padding-left: 300px !important;
     padding-right: 300px !important;
   }
@@ -54,7 +54,7 @@
 }
 
 @media only screen and (max-width: 1280px){
-  .container{
+  .intro{
     padding-left: 200px !important;
     padding-right: 200px !important;
   }
@@ -71,7 +71,7 @@
     background-repeat: no-repeat;
   }
 
-  .container{
+  .intro{
     padding: 25px !important;
   }
 
