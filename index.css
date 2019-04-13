@@ -64,11 +64,11 @@
   .responsive-div{
     height: 800px !important;
     background-image:radial-gradient(transparent 35px), url(./images/webpic.jpg) !important;
-    background-blend-mode: normal;
-    background-attachment: fixed;
-    background-size:cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-blend-mode: normal !important;
+    background-attachment:  scroll !important;
+    background-size:cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat!important;
   }
 
   .intro{
