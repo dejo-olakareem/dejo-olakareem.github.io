@@ -61,7 +61,7 @@
 }
 
 @media only screen and (max-width: 768px){
-    .responsive-div{
+  .responsive-div{
     height: 800px !important;
     background-image:radial-gradient(transparent 35px), url(./images/webpic.jpg) !important;
     background-blend-mode: normal;
